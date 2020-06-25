@@ -1,0 +1,29 @@
+{
+  "name": "webapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ikejimamiki/webApi.git"
+  },
+  "author": "Miki Ikejima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ikejimamiki/webApi/issues"
+  },
+  "homepage": "https://github.com/Ikejimamiki/webApi#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1",
+    "supertest": "^4.0.2"
+  }
+}
